@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} barneymays\.github.io [NC]
-RewriteCond %{REQUEST_URI} ^/$
-RewriteRule ^(.*)$ /home/$1 [L]
