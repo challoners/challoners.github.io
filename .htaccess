@@ -1,11 +1,4 @@
-//Rewrite to www
-Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^barneymays.github.io[nc]
-RewriteRule ^(.*)$ http://www.barneymays.github.io/$1 [r=301,nc]
-
-//301 Redirect Old File
-Redirect 301 /index.html /home/index.html
-
-//301 Redirect Entire Directory
-RedirectMatch 301 /(.*) /home/$1
+RewriteCond %{HTTP_HOST} barneymays\.github.io [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /home/$1 [L]
