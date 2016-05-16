@@ -5,6 +5,11 @@
  * Thanks for MaterializeCSS.com
  */
 
+#avatars {
+    height: 400px;
+    width: 400px;
+}
+
 .default_color{background-color: #2196F3 !important}
 
 .default_color_text{color: #2196F3 !important}
