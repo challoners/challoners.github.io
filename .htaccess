@@ -1,1 +1,1 @@
-Redirect /index.html http://barneymays.github.io/home/
+DirectoryIndex /home/index.html
