@@ -1,1 +1,1 @@
-Redirect / /home/
+Redirect /index.html /home/index.html
